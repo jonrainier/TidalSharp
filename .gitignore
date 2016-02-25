@@ -235,3 +235,5 @@ _Pvt_Extensions
 # FAKE - F# Make
 .fake/
 TidalSharp/BuildNuGetPackage.bat
+TidalSharp/NuGet.exe
+TidalSharp/TidalSharp.nuspec
