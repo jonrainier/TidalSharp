@@ -17,6 +17,7 @@ namespace TidalSharp.Models
         public TidalController TidalController { get; set; }
         // TidalLib.Models
         public AlbumsModel AlbumsModel { get; set; }
+        public AlbumTracksModel AlbumTracksModel { get; set; }
         public CountryModel CountryModel { get; set; }
         public FeaturedAlbumsModel FeaturedAlbumsModel { get; set; }
         public LoginModel LoginModel { get; set; }

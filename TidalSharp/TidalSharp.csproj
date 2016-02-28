@@ -52,12 +52,15 @@
   <ItemGroup>
     <Compile Include="Controllers\TidalController.cs" />
     <Compile Include="Models\AlbumsModel.cs" />
+    <Compile Include="Models\AlbumTracksModel.cs" />
     <Compile Include="Models\CountryModel.cs" />
     <Compile Include="Models\FeaturedAlbumsModel.cs" />
     <Compile Include="Models\LoginModel.cs" />
+    <Compile Include="Models\Static\AlbumItemsModel.cs" />
     <Compile Include="Models\Static\ArtistModel.cs" />
     <Compile Include="Models\Static\DataGridAlbumModel.cs" />
     <Compile Include="Models\Static\ItemModel.cs" />
+    <Compile Include="Models\Static\TracksItemModel.cs" />
     <Compile Include="Models\Tidal.cs" />
     <Compile Include="Models\TracksModel.cs" />
     <Compile Include="Models\UsersModel.cs" />
