@@ -1,6 +1,7 @@
 ﻿using System.Net;
 using Newtonsoft.Json;
 using TidalSharp.Models;
+using System.Text;
 
 namespace TidalSharp.Controllers
 {
@@ -23,7 +24,7 @@ namespace TidalSharp.Controllers
         {
             const string prefix = "https://api.tidalhifi.com/v1";
 
-            using (var client = new WebClient())
+            using (var client = new WebClient() { Encoding = Encoding.UTF8 })
             {
                 string requestData;
 
